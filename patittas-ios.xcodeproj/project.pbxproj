@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E855D51529C426F60050F77B /* patittas_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855D51429C426F60050F77B /* patittas_iosApp.swift */; };
+		E855D51729C426F70050F77B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855D51629C426F70050F77B /* ContentView.swift */; };
+		E855D51929C426F90050F77B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E855D51829C426F90050F77B /* Assets.xcassets */; };
+		E855D51C29C426F90050F77B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E855D51B29C426F90050F77B /* Preview Assets.xcassets */; };
+		E855D52429C427840050F77B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855D52329C427840050F77B /* LoginView.swift */; };
+		E855D52629C4A38B0050F77B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855D52529C4A38B0050F77B /* Extensions.swift */; };
+		E855D52929C4A59C0050F77B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855D52829C4A59C0050F77B /* HomeView.swift */; };
+		E855D52C29C4A8C30050F77B /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855D52B29C4A8C30050F77B /* SignupView.swift */; };
+		E879332B29C5EA5D00B01844 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879332A29C5EA5D00B01844 /* MenuView.swift */; };
+		E879332E29C5EAB600B01844 /* ListPetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879332D29C5EAB600B01844 /* ListPetsView.swift */; };
+		E879333129C5EDC900B01844 /* VoluntaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879333029C5EDC900B01844 /* VoluntaryView.swift */; };
+		E879333429C5FB1100B01844 /* FindUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879333329C5FB1100B01844 /* FindUsView.swift */; };
+		E879333729C5FC1500B01844 /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879333629C5FC1500B01844 /* PetView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E855D51129C426F60050F77B /* patittas-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "patittas-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E855D51429C426F60050F77B /* patittas_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patittas_iosApp.swift; sourceTree = "<group>"; };
+		E855D51629C426F70050F77B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E855D51829C426F90050F77B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E855D51B29C426F90050F77B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E855D52329C427840050F77B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		E855D52529C4A38B0050F77B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E855D52829C4A59C0050F77B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E855D52B29C4A8C30050F77B /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		E879332A29C5EA5D00B01844 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		E879332D29C5EAB600B01844 /* ListPetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPetsView.swift; sourceTree = "<group>"; };
+		E879333029C5EDC900B01844 /* VoluntaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoluntaryView.swift; sourceTree = "<group>"; };
+		E879333329C5FB1100B01844 /* FindUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindUsView.swift; sourceTree = "<group>"; };
+		E879333629C5FC1500B01844 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E855D50E29C426F60050F77B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E855D50829C426F60050F77B = {
+			isa = PBXGroup;
+			children = (
+				E855D51329C426F60050F77B /* patittas-ios */,
+				E855D51229C426F60050F77B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E855D51229C426F60050F77B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E855D51129C426F60050F77B /* patittas-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E855D51329C426F60050F77B /* patittas-ios */ = {
+			isa = PBXGroup;
+			children = (
+				E879333529C5FC0200B01844 /* Pet */,
+				E879333229C5FAEA00B01844 /* FindUs */,
+				E879332F29C5EDB900B01844 /* Voluntary */,
+				E879332C29C5EA9E00B01844 /* ListPets */,
+				E879332929C5EA5300B01844 /* Menu */,
+				E855D52A29C4A8B90050F77B /* Signup */,
+				E855D52729C4A57B0050F77B /* Home */,
+				E855D52229C427680050F77B /* Login */,
+				E855D51429C426F60050F77B /* patittas_iosApp.swift */,
+				E855D51629C426F70050F77B /* ContentView.swift */,
+				E855D51829C426F90050F77B /* Assets.xcassets */,
+				E855D51A29C426F90050F77B /* Preview Content */,
+				E855D52529C4A38B0050F77B /* Extensions.swift */,
+			);
+			path = "patittas-ios";
+			sourceTree = "<group>";
+		};
+		E855D51A29C426F90050F77B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E855D51B29C426F90050F77B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E855D52229C427680050F77B /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E855D52329C427840050F77B /* LoginView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E855D52729C4A57B0050F77B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E855D52829C4A59C0050F77B /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E855D52A29C4A8B90050F77B /* Signup */ = {
+			isa = PBXGroup;
+			children = (
+				E855D52B29C4A8C30050F77B /* SignupView.swift */,
+			);
+			path = Signup;
+			sourceTree = "<group>";
+		};
+		E879332929C5EA5300B01844 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				E879332A29C5EA5D00B01844 /* MenuView.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		E879332C29C5EA9E00B01844 /* ListPets */ = {
+			isa = PBXGroup;
+			children = (
+				E879332D29C5EAB600B01844 /* ListPetsView.swift */,
+			);
+			path = ListPets;
+			sourceTree = "<group>";
+		};
+		E879332F29C5EDB900B01844 /* Voluntary */ = {
+			isa = PBXGroup;
+			children = (
+				E879333029C5EDC900B01844 /* VoluntaryView.swift */,
+			);
+			path = Voluntary;
+			sourceTree = "<group>";
+		};
+		E879333229C5FAEA00B01844 /* FindUs */ = {
+			isa = PBXGroup;
+			children = (
+				E879333329C5FB1100B01844 /* FindUsView.swift */,
+			);
+			path = FindUs;
+			sourceTree = "<group>";
+		};
+		E879333529C5FC0200B01844 /* Pet */ = {
+			isa = PBXGroup;
+			children = (
+				E879333629C5FC1500B01844 /* PetView.swift */,
+			);
+			path = Pet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E855D51029C426F60050F77B /* patittas-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E855D51F29C426F90050F77B /* Build configuration list for PBXNativeTarget "patittas-ios" */;
+			buildPhases = (
+				E855D50D29C426F60050F77B /* Sources */,
+				E855D50E29C426F60050F77B /* Frameworks */,
+				E855D50F29C426F60050F77B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "patittas-ios";
+			productName = "patittas-ios";
+			productReference = E855D51129C426F60050F77B /* patittas-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E855D50929C426F60050F77B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E855D51029C426F60050F77B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E855D50C29C426F60050F77B /* Build configuration list for PBXProject "patittas-ios" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E855D50829C426F60050F77B;
+			productRefGroup = E855D51229C426F60050F77B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E855D51029C426F60050F77B /* patittas-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E855D50F29C426F60050F77B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E855D51C29C426F90050F77B /* Preview Assets.xcassets in Resources */,
+				E855D51929C426F90050F77B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E855D50D29C426F60050F77B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E879332E29C5EAB600B01844 /* ListPetsView.swift in Sources */,
+				E879333429C5FB1100B01844 /* FindUsView.swift in Sources */,
+				E879332B29C5EA5D00B01844 /* MenuView.swift in Sources */,
+				E855D52429C427840050F77B /* LoginView.swift in Sources */,
+				E879333729C5FC1500B01844 /* PetView.swift in Sources */,
+				E855D51729C426F70050F77B /* ContentView.swift in Sources */,
+				E855D51529C426F60050F77B /* patittas_iosApp.swift in Sources */,
+				E855D52C29C4A8C30050F77B /* SignupView.swift in Sources */,
+				E879333129C5EDC900B01844 /* VoluntaryView.swift in Sources */,
+				E855D52929C4A59C0050F77B /* HomeView.swift in Sources */,
+				E855D52629C4A38B0050F77B /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E855D51D29C426F90050F77B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E855D51E29C426F90050F77B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E855D52029C426F90050F77B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"patittas-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 4G9UQ8D789;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Patitas;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "victorcastro.io.patittas-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E855D52129C426F90050F77B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"patittas-ios/Preview Content\"";
+				DEVELOPMENT_TEAM = 4G9UQ8D789;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Patitas;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.entertainment";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "victorcastro.io.patittas-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E855D50C29C426F60050F77B /* Build configuration list for PBXProject "patittas-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E855D51D29C426F90050F77B /* Debug */,
+				E855D51E29C426F90050F77B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E855D51F29C426F90050F77B /* Build configuration list for PBXNativeTarget "patittas-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E855D52029C426F90050F77B /* Debug */,
+				E855D52129C426F90050F77B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E855D50929C426F60050F77B /* Project object */;
+}

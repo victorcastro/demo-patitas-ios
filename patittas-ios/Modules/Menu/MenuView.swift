@@ -9,6 +9,8 @@ import SwiftUI
 
 struct MenuView: View {
     
+    @EnvironmentObject var session: SessionManager
+    
     var body: some View {
         NavigationStack {
             VStack {
@@ -48,15 +50,23 @@ struct MenuView: View {
                     }
                     
                     Section {
-                        Text("Cerrar sesión")
-                            .frame(maxWidth: .infinity, alignment: .center)
-                            .foregroundColor(.red)
+                        Button {
+                            logoutService()
+                        } label: {
+                            Text("Cerrar sesión")
+                                .frame(maxWidth: .infinity, alignment: .center)
+                                .foregroundColor(.red)
+                        }
                     }
                     
                 }
             }.background(Color(.systemGray6))
         }
         
+    }
+    
+    func logoutService() {
+        session.logOutSession()
     }
 }
 

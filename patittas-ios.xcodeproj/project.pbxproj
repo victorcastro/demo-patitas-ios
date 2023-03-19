@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E855D51529C426F60050F77B /* patittas_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855D51429C426F60050F77B /* patittas_iosApp.swift */; };
-		E855D51729C426F70050F77B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855D51629C426F70050F77B /* ContentView.swift */; };
 		E855D51929C426F90050F77B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E855D51829C426F90050F77B /* Assets.xcassets */; };
 		E855D51C29C426F90050F77B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E855D51B29C426F90050F77B /* Preview Assets.xcassets */; };
 		E855D52429C427840050F77B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E855D52329C427840050F77B /* LoginView.swift */; };
@@ -20,12 +19,12 @@
 		E879333129C5EDC900B01844 /* VoluntaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879333029C5EDC900B01844 /* VoluntaryView.swift */; };
 		E879333429C5FB1100B01844 /* FindUsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879333329C5FB1100B01844 /* FindUsView.swift */; };
 		E879333729C5FC1500B01844 /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E879333629C5FC1500B01844 /* PetView.swift */; };
+		E8D8359329C67E6E005A5541 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8D8359229C67E6E005A5541 /* SessionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E855D51129C426F60050F77B /* patittas-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "patittas-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E855D51429C426F60050F77B /* patittas_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = patittas_iosApp.swift; sourceTree = "<group>"; };
-		E855D51629C426F70050F77B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E855D51829C426F90050F77B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E855D51B29C426F90050F77B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E855D52329C427840050F77B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -37,6 +36,7 @@
 		E879333029C5EDC900B01844 /* VoluntaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoluntaryView.swift; sourceTree = "<group>"; };
 		E879333329C5FB1100B01844 /* FindUsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindUsView.swift; sourceTree = "<group>"; };
 		E879333629C5FC1500B01844 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
+		E8D8359229C67E6E005A5541 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,16 +69,9 @@
 		E855D51329C426F60050F77B /* patittas-ios */ = {
 			isa = PBXGroup;
 			children = (
-				E879333529C5FC0200B01844 /* Pet */,
-				E879333229C5FAEA00B01844 /* FindUs */,
-				E879332F29C5EDB900B01844 /* Voluntary */,
-				E879332C29C5EA9E00B01844 /* ListPets */,
-				E879332929C5EA5300B01844 /* Menu */,
-				E855D52A29C4A8B90050F77B /* Signup */,
-				E855D52729C4A57B0050F77B /* Home */,
-				E855D52229C427680050F77B /* Login */,
+				E8D8359129C67E62005A5541 /* Managers */,
+				E8D8359029C67E51005A5541 /* Modules */,
 				E855D51429C426F60050F77B /* patittas_iosApp.swift */,
-				E855D51629C426F70050F77B /* ContentView.swift */,
 				E855D51829C426F90050F77B /* Assets.xcassets */,
 				E855D51A29C426F90050F77B /* Preview Content */,
 				E855D52529C4A38B0050F77B /* Extensions.swift */,
@@ -158,6 +151,29 @@
 			path = Pet;
 			sourceTree = "<group>";
 		};
+		E8D8359029C67E51005A5541 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				E879333529C5FC0200B01844 /* Pet */,
+				E879333229C5FAEA00B01844 /* FindUs */,
+				E879332F29C5EDB900B01844 /* Voluntary */,
+				E879332C29C5EA9E00B01844 /* ListPets */,
+				E879332929C5EA5300B01844 /* Menu */,
+				E855D52A29C4A8B90050F77B /* Signup */,
+				E855D52729C4A57B0050F77B /* Home */,
+				E855D52229C427680050F77B /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		E8D8359129C67E62005A5541 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				E8D8359229C67E6E005A5541 /* SessionManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -230,10 +246,10 @@
 			files = (
 				E879332E29C5EAB600B01844 /* ListPetsView.swift in Sources */,
 				E879333429C5FB1100B01844 /* FindUsView.swift in Sources */,
+				E8D8359329C67E6E005A5541 /* SessionManager.swift in Sources */,
 				E879332B29C5EA5D00B01844 /* MenuView.swift in Sources */,
 				E855D52429C427840050F77B /* LoginView.swift in Sources */,
 				E879333729C5FC1500B01844 /* PetView.swift in Sources */,
-				E855D51729C426F70050F77B /* ContentView.swift in Sources */,
 				E855D51529C426F60050F77B /* patittas_iosApp.swift in Sources */,
 				E855D52C29C4A8C30050F77B /* SignupView.swift in Sources */,
 				E879333129C5EDC900B01844 /* VoluntaryView.swift in Sources */,

@@ -13,9 +13,12 @@ struct LoginView: View {
     @State private var isSecured: Bool = true
     @State var username: String = ""
     @State var isOn = false
+    @State var loginSuccess = false
+    
+    @EnvironmentObject var session: SessionManager
     
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
                 Image("patitas-logo")
                     .resizable()
@@ -56,14 +59,14 @@ struct LoginView: View {
                     Toggle("Recordar accesos", isOn: $isOn)
                     
                     VStack(spacing: 20) {
-                        NavigationLink(destination: HomeView()) {
+                        Button {
+                            loginService()
+                        } label: {
                             Text("INICIAR SESIÓN")
-                                .padding(15)
+                                .padding(10)
                                 .frame(maxWidth: .infinity)
-                                .background(.blue)
-                                .foregroundColor(.white)
-                                .cornerRadius(10)
-                        }
+                        }.buttonStyle(.borderedProminent)
+                        
                         
                         NavigationLink(destination: SignupView()) {
                             Text("Quiero registrarme").font(.subheadline).foregroundColor(.blue)
@@ -71,8 +74,20 @@ struct LoginView: View {
                         
                     }
                 }
-            }.padding()
+            }.padding(30)
                 .background(Color(hex: 0xf7f7f7))
+                .navigationDestination(isPresented: $loginSuccess) {
+                    HomeView()
+                }
+        }
+        
+    }
+    
+    func loginService() {
+        print("loginService")
+        var userLogin = UserLogin(username: "abc", password: "123")
+        if session.signInSession(userLogin) != nil {
+            self.loginSuccess = true
         }
     }
 }
